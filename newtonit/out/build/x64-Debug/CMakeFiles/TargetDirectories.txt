@@ -1,0 +1,5 @@
+C:/Users/Kriszti/Documents/c++ programozás/ELTE-korszam1-2023/newtonit/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Kriszti/Documents/c++ programozás/ELTE-korszam1-2023/newtonit/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Kriszti/Documents/c++ programozás/ELTE-korszam1-2023/newtonit/out/build/x64-Debug/newtonit/CMakeFiles/newtonit.dir
+C:/Users/Kriszti/Documents/c++ programozás/ELTE-korszam1-2023/newtonit/out/build/x64-Debug/newtonit/CMakeFiles/edit_cache.dir
+C:/Users/Kriszti/Documents/c++ programozás/ELTE-korszam1-2023/newtonit/out/build/x64-Debug/newtonit/CMakeFiles/rebuild_cache.dir
