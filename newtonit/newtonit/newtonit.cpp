@@ -1,6 +1,4 @@
-﻿#include <iostream>
-#include <math.h>
-
+﻿#include "newtonit.h"
 using namespace std;
 
 template <typename F, typename T, typename dF>
@@ -25,5 +23,48 @@ int main()
 
     double eredmeny = Newtonit(f, df, x0);
     std::cout << eredmeny << std:: endl;
+
+
+
+
+
+
+    //második házi kipróbálása
+    Vector2d v = {1.0, 2.0};
+    Vector2d u = {4.0, -2.0};
+    auto s = 2.0;
+    std::cout << "Öszeadás után az x=" << v.x+u.x << " és az y=" << v.y+u.y << " koordináták.\n";
+    std::cout << "Kivonás után az x=" << v.x-u.x << " és az y=" << v.y-u.y << " koordináták.\n";
+    std::cout << "Osztás után az x=" << v.x/s << " és az y=" << v.y/s << " koordináták.\n";
+    std::cout << "Szorzás után az x=" << v.x*s << " és az y=" << v.y*s << " koordináták.\n";
+
+
+     v += u;
+    std::cout << "+= után az x=" << v.x << " és az y=" << v.y<< " koordináták.\n";
+     v -= u;
+    std::cout << "-= után az x=" << v.x << " és az y=" << v.y << " koordináták.\n";
+     v *= s;
+    std::cout << "*= után az x=" << v.x << " és az y=" << v.y << " koordináták.\n";
+     v /= s; 
+    std::cout << "/= után az x=" << v.x << " és az y=" << v.y << " koordináták.\n";
+
+
+    std::cout << "Vektorszorzás után az eredmény: " << v.dot(u) <<"\n";
+    auto a = v.length();
+    std::cout << "A vektor hossza: " << a << "\n";
+    auto b = v.sqlength();
+    std::cout << "A vektor hosszának négyzete: " << b << "\n";
+    std::cout << "A vektor normált hossza: " << v.normalize() << "\n";
+
+
+
+
+
+
+
+
+
+
     return 0;
+
 }
